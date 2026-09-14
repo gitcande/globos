@@ -19,6 +19,10 @@ class Globo
   {
       ellipse(x,y,80,100);
       triangle (x, y+50, x-10, y+60, x+10, y+60);
+      
+      noFill();
+      bezier(x, y+60, x-30, y+80, x+30, y+110, x, y+130);
+      fill(255);
   }
   
 }
