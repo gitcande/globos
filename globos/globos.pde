@@ -11,7 +11,7 @@ class Globo
     y = _y;
     vx = random(-0.25, 0.25);
     vy = random(-2, -0.5);
-    c = color(random(100), random(255), random(255));
+    c = color(255, 0, 0);
   }
 
   void update()
@@ -46,7 +46,7 @@ void setup()
 {
   size(640, 480);
 
-  img = loadImage("images.jpg");
+  img = loadImage("BHM2021_0008s_0000_0211-Barack-Obama.png");
 
   globos = new ArrayList<Globo>();
 }
