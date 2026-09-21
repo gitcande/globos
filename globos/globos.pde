@@ -46,7 +46,7 @@ void setup()
 {
   size(640, 480);
 
-  img = loadImage("images.jpg");
+  img = loadImage("BHM2021_0008s_0000_0211-Barack-Obama.png");
 
   globos = new ArrayList<Globo>();
 }
