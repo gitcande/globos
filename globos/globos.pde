@@ -11,7 +11,7 @@ class Globo
     y = _y;
     vx = random(-0.25, 0.25);
     vy = random(-2, -0.5);
-    c = color(random(100), random(255), random(255));
+    c = color(255, 0, 0);
   }
 
   void update()
